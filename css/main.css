@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: beige;
+}
+
+#navbar {
+  color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+  height: 70px;
+}
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+#navbar ul li a {
+  padding: 0.75rem;
+}
+
+#navbar ul li a:hover {
+  text-decoration: overline;
+  font-size: 1.2em;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid gray;
+}
+
+#home img {
+  max-width: 20%;
+  height: auto;
+  border-radius: 100%;
+}
+#home .name h2 {
+  margin-bottom: 0.75rem;
+}
+
+#home .name p {
+  opacity: 0.5;
+  font-style: italic;
+}
+
+/* Portfolio section  */
+
+#portfolio-section {
+  color: beige;
+  padding: 1rem;
+}
+
+#portfolio-section .items {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+#portfolio-section .items .item {
+  width: 33%;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+#portfolio-section .items .item ul {
+  list-style-type: none;
+}
+
+#portfolio-section .items .item ul li {
+  padding: 0.5rem;
+}
+
+#portfolio-section .items .item ul li i {
+  padding: 0.3rem;
+}
+
+#portfolio-section .items .item ul:hover {
+  color: orange;
+}
+
+#portfolio-section .heading-medium {
+  padding: 1rem;
+}
+
+#project-section {
+  color: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.projects .project {
+  display: flex;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.projects .project .project-img {
+  margin-right: 0.5rem;
+  position: relative;
+}
+
+.projects .project .project-img img {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+}
+
+.projects .project .project-img a {
+  background-color: beige;
+  padding: 0.25rem;
+  color: #333;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.projects .project .project-img a:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: beige;
+}
+
+.projects .project .project-info .title {
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.projects .project .project-info .description {
+  letter-spacing: 1.2px;
+  margin-bottom: 0.25rem;
+  opacity: 0.7;
+}
+.projects .project .project-info .techs {
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+}
+
+.projects .project .project-info .link-div {
+  margin-top: 2rem;
+}
+.projects .project .project-info .link-div .link {
+  background-color: beige;
+  padding: 0.5rem;
+  color: #333;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.projects .project .project-info .link-div .link:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: beige;
+}
+
+#contact {
+  color: beige;
+  padding: 1rem;
+}
+#contact .contact-form {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .contact-form ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 1rem;
+  align-self: center;
+}
+
+#contact .contact-form ul a {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+#contact .contact-form ul a:hover {
+  /* background-color: beige;
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%; */
+  opacity: 0.5;
+}
